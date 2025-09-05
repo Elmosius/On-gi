@@ -13,3 +13,19 @@
   --color-secondary: #d7c4ac;
   --color-accent: #1c1a18;
 }
+
+@layer components {
+  p {
+    @apply font-semibold text-6xl text-primary/85 w-[70%] cursor-default;
+  }
+
+  span {
+    @apply text-secondary;
+  }
+
+  .a {
+    mask-image: url('/mask.svg');
+    mask-repeat: no-repeat;
+    @apply bg-secondary;
+  }
+}
