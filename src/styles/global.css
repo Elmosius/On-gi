@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import 'tailwindcss';
+
+@layer base {
+  :root {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@theme {
+  --color-primary: #faf7f2;
+  --color-secondary: #d7c4ac;
+  --color-accent: #1c1a18;
+}
