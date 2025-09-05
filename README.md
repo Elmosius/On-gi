@@ -5,7 +5,7 @@ Teks utama akan berubah ketika disentuh oleh kursor dengan efek mask, menampilka
 
 ## 🚀 Tech Stack
 - [React](https://react.dev/) (Vite + TypeScript)
-- [Framer Motion](https://www.framer.com/motion/) (untuk animasi mask cursor & scroll fade-in)
+- [GSAP](https://gsap.com/) (untuk animasi mask cursor & scroll fade-in)
 - [TailwindCSS](https://tailwindcss.com/) (utility-first styling)
 
 ## 📂 Project Setup
