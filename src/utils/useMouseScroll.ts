@@ -9,6 +9,7 @@ const useMouseScroll = () => {
   useEffect(() => {
     const observer = Observer.create({
       target: document.documentElement,
+      preventDefault: true,
       type: 'wheel,touch,pointer',
       onWheel: (e) => {
         setScroll((prev) => ({
